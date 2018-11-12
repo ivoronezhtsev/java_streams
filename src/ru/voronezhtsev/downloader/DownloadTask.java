@@ -12,8 +12,8 @@ import java.net.URL;
  * @author Воронежцев Игорь on 11.11.2018
  */
 public class DownloadTask implements Runnable {
-    private URL mURL;
-    private String mFileName;
+    private final URL mURL;
+    private final String mFileName;
 
     /**
      * @param url      ссылка на ресурс для скачивания
